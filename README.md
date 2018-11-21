@@ -76,7 +76,7 @@ This section describes the core functionalities of VR-Riding and what it must be
 2. All the backend c# scripts are located in the “VRsafeRiding ” > “Assets” > “Scripts” folder
 
 ### Game Rules
- 1. Answer all 8 quiz questions in the game, they are located all over the map
+ 1. Answer all 10 quiz questions in the game, they are located all over the map
  2. Avoid hitting pedestrians as well as hitting by vehicle and pedestrian 
     in the game
  3. Each question act as a checkpoint(save game progress) in the game 
@@ -93,7 +93,7 @@ This section describes the core functionalities of VR-Riding and what it must be
 * *Jeremy Tan Teng Tat - Game Menu Logic *
 * *Lim Jia Hui Alissa - Save User State logic *
 * *Lim Yoong Jin - Night Mode Logic *
-* *Ng ZhiYuan - Traffic Light Login *
+* *Ng Zhi Yuan - Traffic Light Logic *
 
 
 ## Errors and bugs
@@ -107,17 +107,17 @@ This section describes the core functionalities of VR-Riding and what it must be
    8. When user has changed to quiz scene, the game scene is not on pause state.
    
    
-## Limitation
-   1. There is no traffic rule implemented in the game
+## Limitations
+   1. There are no traffic rules implemented in the game, but you encouraged to adhere to them to score more points!
    2. VR-riding currently only supports android mobile
    3. Player's Phone has to be in left screen orientation 
 
 ## Feedbacks
    1. Implement a score system to allow player knows his statistics
    2. Implement a Health Point system 
-      * Player lose a portion of his health whenever he hitted by vehicle and eventually lose the game if his health runs out
+      * Player lose a portion of his health whenever he hits or is hit by any moving vehicles or buildings, and eventually lose 	the game if his health runs out
    3. Implement Play-Time Limit system
-      * If player unable to finish the game with time limit give, he loses the game
+      * If player unable to finish the game with time limit given, he loses the game
 
 ## Copyright and attribution
 
